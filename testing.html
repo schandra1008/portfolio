@@ -1,0 +1,257 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="html, website maker, website, web services">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Saurabh Chandra">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="bootstrap/js/jquery.js" type="text/javascript"></script>
+
+    <style>
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+        
+        body {
+            background-color: white;
+            color: black;
+        }
+        
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+        
+        nav {
+            margin-top: 10px;
+        }
+        
+        .brand {
+            font-family: 'Pacifico', cursive;
+            font-size: 25px;
+        }
+        
+        .brand:hover {
+            color: rgb(221, 17, 240);
+        }
+        
+        .link1 {
+            font-size: 25px;
+            color: black;
+            font-family: 'Bree Serif', serif;
+        }
+        
+        .link2 {
+            font-size: 25px;
+            margin-left: 50px;
+            color: black;
+            font-family: 'Bree Serif', serif;
+        }
+        
+        .link3 {
+            font-size: 25px;
+            margin-left: 50px;
+            color: black;
+            font-family: 'Bree Serif', serif;
+        }
+        
+        .link1:hover {}
+        
+        #background-image {
+            background-image: url("jonas-leupe.jpg");
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .home {
+            text-align: center;
+            margin-top: 280px;
+        }
+        
+        h1 {
+            font-weight: 900;
+            color: #fff;
+            -webkit-text-fill-color: rgb(235, 83, 3);
+            -webkit-text-stroke: 1px #000;
+            font-size: 80px;
+        }
+        
+        .front {
+            font-family: 'Dancing Script', cursive;
+            font-size: 30px;
+        }
+        
+        .para {
+            font-size: 20px;
+            font-family: 'Pacifico', cursive;
+        }
+        
+        .tools {
+            margin-top: 280px;
+        }
+        
+        .tool-heading {
+            font-size: 50px;
+            font-family: 'Pacifico', cursive;
+        }
+        
+        .tool-subheading {
+            font-size: 20px;
+            font-family: monospace;
+            margin-bottom: 50px;
+        }
+        
+        .about-me {
+            margin-top: 100px;
+        }
+        
+        .about-para {
+            margin-top: 30px;
+            font-size: 25px;
+            font-family: monospace;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid"></div>
+
+    <nav class="navbar" style="background-color:white;">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                     </button>
+                <a href="#" class="navbar-brand brand">Chandra Saurabh</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" class="link1">Home</a></li>
+                    <li><a href="#" class="link2">Work</a></li>
+                    <li><a href="#" class="link3">About</a></li>
+                    <li style="margin-left: 50px;"><a href="#" onclick="myFunction()"><span class="glyphicon glyphicon-adjust"></span></a></li>
+            </div>
+        </div>
+    </nav>
+    <div class="home">
+        <h1>Chandra Saurabh</h1>
+        <h3 class="front">Front End Developer</h3>
+        <p class="para">Indian by birth, Engineer by Choice, Coder by Passion</p>
+    </div>
+    <div class="container">
+        <div class="tools">
+            <h2 class="tool-heading">Tools and Technologies</h2>
+            <p class="tool-subheading">Programming languages and tools that i use</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="thumbnail">
+                    <img src="https://img.icons8.com/ios-filled/400/000000/html.png" />
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="thumbnail">
+                    <img src="https://img.icons8.com/ios-glyphs/400/000000/css3.png" />
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="thumbnail">
+                    <img src="https://img.icons8.com/ios-filled/400/000000/php.png" />
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="thumbnail">
+                    <img src="https://img.icons8.com/ios-filled/400/000000/mysql.png" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="thumbnail">
+                    <img src="https://img.icons8.com/ios-filled/400/000000/angularjs.png" />
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="thumbnail">
+                    <img src="https://img.icons8.com/ios-filled/400/000000/js.png" />
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="thumbnail">
+                    <img src="https://img.icons8.com/windows/400/000000/nodejs.png" />
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="thumbnail">
+                    <img src="https://img.icons8.com/ios-glyphs/400/000000/adobe-photoshop.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="about-me">
+            <h2 class="tool-heading text-muted">about me...</h2>
+            <p class="about-para">
+                Hello there. My name is Saurabh Chandra. I am 21 year old front-end developer based in India. I am a passionate learner working on my skills and growing as a front-end developer each and everyday.
+            </p><br>
+            <nav class="navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="https://twitter.com/schandra1008?s=08"><img src="https://img.icons8.com/fluent/48/000000/twitter.png" /></a>
+                    </li>
+                    <li class="link2">
+                        <a href="mailto:chandrasaurabh101999@gmail.com"><img src="https://img.icons8.com/fluent/48/000000/gmail.png" /></a>
+                    </li>
+                    <li class="link2">
+                        <a href="#"><img src="https://img.icons8.com/color/48/000000/linkedin.png" /></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <footer>
+        <p style="text-align: center;">©2020 Saurabh Chandra </p>
+    </footer>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+</html>

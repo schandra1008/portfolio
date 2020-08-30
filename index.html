@@ -1,56 +1,164 @@
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="keywords" content="html, website maker, website, web services">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Saurabh Chandra">
-    <title>Chandra Saurabh</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <head>
+        <title>Chandrasaurabh</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="bootstrap/js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
-    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="bootstrap/js/jquery.js" type="text/javascript"></script>
-</head>
+            <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+        <style>
+            body {
+    background-color: white;
+    color: black;
+}
 
-<body>
-    <nav class="navbar navbar-default navbar-fixed-top" style="background-color:white;">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                     </button>
-                <a href="#" class="navbar-brand brand">Chandra Saurabh</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home1">Home</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#" onclick="myFunction()"><span class="glyphicon glyphicon-adjust"></span></a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <header>
-        <div class="home">
-            <h1 class="glow">Saurabh Chandra</h1>
-            <h3 class="front">Front End Developer</h3>
-            <p class="para">Indian by birth, Engineer by Education, Developer by Passion, Overthinker by choice</p>
-        </div>
-    </header>
+.dark-mode {
+    background-color: black;
+    color: white;
+}
 
+
+
+
+.brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+.brand:hover {
+    color: rgb(221, 17, 240);
+}
+
+
+.home {
+    text-align: center;
+    margin-top: 280px;
+}
+
+h1 {
+    font-weight: 900;
+    color: #fff;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px #000;
+    font-size: 80px;
+    font-family: cursive;
+}
+
+.front {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.para {
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.tools {
+    margin-top: 280px;
+}
+
+.tool-heading {
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+.tool-subheading {
+    font-size: 20px;
+    font-family: monospace;
+    margin-bottom: 50px;
+}
+
+.about-me {
+    margin-top: 100px;
+}
+
+.about-para {
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00c4e6, 0 0 40px #0092e6, 0 0 50px #0049e6, 0 0 60px #0017e6, 0 0 70px #1101a1;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #f53333, 0 0 40px #f71a13, 0 0 50px #f52d2d, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #fc0404;
+    }
+}
+
+.certificates {
+    margin-top: 120px;
+}
+
+.projects {
+    margin-top: 120px;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.left {
+    padding-left: 20px;
+}
+.page-footer{
+    margin-top:100px;
+    margin-bottom:50px;
+}
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid" id="home">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#" class="navbar-brand brand">Chandra saurabh</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home" class="link1">Home</a></li>
+                    <li><a href="#work" class="link2">Work</a></li>
+                    <li><a href="#about" class="link3">About</a></li>
+                    <li><a href="#contact" class="link3">Contact</a></li>
+                    <li><a href="#" onclick="myFunction()"><span class="glyphicon glyphicon-adjust"></span> Dark</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="home">
+        <h1 class="glow">Saurabh Chandra</h1>
+        <h3 class="front">Front End Developer</h3>
+        <p class="para">Indian by birth, Engineer by Education, Developer by Passion, Overthinker by choice</p>
+    </div>
     <div class="container">
         <div class="tools">
             <h2 class="tool-heading">Tools and Technologies</h2>
@@ -102,14 +210,14 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="about-me" id="about">
+    <div class="container" id="about">
+        <div class="about-me">
             <h2 class="tool-heading text-muted">about me...</h2>
             <p class="about-para">
                 Hello there. My name is Saurabh Chandra. I am 21 year old front-end developer based in India. I am a passionate learner working on my skills and growing as a front-end developer each and everyday.
                 <a href="#contact" style="text-decoration: none;">Let's make something special.</a>
             </p><br>
-
+            
             <div class="row about-me">
                 <div class="col-sm-3">
                     <div class="thumbnail" style="border: none;">
@@ -159,15 +267,15 @@
         </div>
     </div>
 
-    <div class="container">
+<div class="container" id="work">
         <div class="certificates">
             <h2 class="tool-heading">Trainings &amp Certificates</h2>
             <div class="row" style="padding-top: 50px;">
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <img src="Sololearn.png">
+                        <img src="Web Development Training - Certificate of Completion.png">
                         <div class="caption">
-                            <h3>Sololearn</h3>
+                            <h3>Internshala</h3>
                         </div>
                     </div>
                 </div>
@@ -181,9 +289,9 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <img src="Web Development Training - Certificate of Completion.png">
+                        <img src="FreeCodeCamp.png">
                         <div class="caption">
-                            <h3>Internshala</h3>
+                            <h3>freeCodeCamp</h3>
                         </div>
                     </div>
                 </div>
@@ -191,7 +299,7 @@
         </div>
     </div>
 
-    <div class="container">
+<div class="container">
         <div class="projects">
             <h2 class="tool-heading">Projects</h2>
             <div class="row" style="padding-top: 50px;">
@@ -199,7 +307,7 @@
                     <div class="thumbnail">
                         <img src="E-Commerce.png">
                         <div class="caption">
-                            <h3>E-Commerce website</h3>
+                            <h3>E-Commerce Website</h3>
                             <p class="text-muted">Technologies used - HTML, CSS, MySQL, PHP</p>
                         </div>
                     </div>
@@ -208,7 +316,7 @@
                     <div class="thumbnail">
                         <img src="Job seeking.png">
                         <div class="caption">
-                            <h3>Job seeking Website</h3>
+                            <h3>Freelance Marketplace Website</h3>
                             <p class="text-muted">Technologies used - HTML, CSS, Javascript</p>
                         </div>
                     </div>
@@ -226,7 +334,7 @@
         </div>
     </div>
 
-    <div class="container contact" id="contact">
+<div class="container contact" id="contact">
         <center>
             <h2 style="font-family: 'Pacifico', cursive; font-size: 40px;">C<u>ONTAC</u>T
             </h2>
@@ -242,7 +350,7 @@
                                 <input type="email" class="form-control" name="email" placeholder="Enter email" required>
                             </div>
                             <div class="form-group" style="width: 100%;">
-                                <textarea rows="7" cols="48" placeholder="Your Message..." name="Message"></textarea>
+                                <textarea rows="7" cols="42" placeholder="Your Message..." name="Message"></textarea>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-default">Submit</button>
@@ -255,32 +363,11 @@
     </div>
 
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <p style="text-align: center;">©2020 Saurabh Chandra</p>
-                </div>
-                <div class="col-sm-4">
-                    <center>
-                        <a href="https://twitter.com/schandra1008?s=08"><img src="https://img.icons8.com/fluent/36/000000/twitter.png" /></a>
-                        <a href="mailto:chandrasaurabh101999@gmail.com" class="left"><img src="https://img.icons8.com/fluent/36/000000/gmail.png" /></a>
-                        <a href="https://www.linkedin.com/in/saurabh-c-8639a11b3" class="left"><img src="https://img.icons8.com/color/36/000000/linkedin.png" /></a>
-                    </center>
-
-                </div>
-            </div>
+        <div class="container page-footer">
+            <p style="text-align: center;">©2020 Saurabh Chandra</p>
         </div>
-
     </footer>
-
-    </div>
-
-    <script>
-        function myFunction() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-        }
-    </script>
-</body>
-
+            
+        </div>
+    </body>
 </html>
